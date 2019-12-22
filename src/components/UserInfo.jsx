@@ -1,0 +1,26 @@
+import React, { Component } from 'react'
+import Info from '../data/info.json'
+
+export default class UserInfo extends Component {
+
+    getAge = (sdate) => {
+        var today = new Date();
+        var birthDate = new Date(sdate);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+    render() {
+        return (
+            <div>
+                <h1>{Info.name}</h1>
+                <img src={Info.userimage} alt="I" />
+                <p>Hola buenas, me llamo {Info.name} y tengo {this.getAge(Info.birthdate)} años. Soy administrador de sistemas aunque también me encanta todo lo relacionado con el mundo web.</p>
+            </div>
+        )
+    }
+}

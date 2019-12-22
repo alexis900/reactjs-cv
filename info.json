@@ -1,0 +1,143 @@
+{
+  "info": [
+    {
+      "name": "Alejandro Martín Pérez",
+      "subtitle": "Administrador de sistemas y amante de todo tipo de tecnologia",
+      "description": "Buenas, me llamo Alejandro y soy administrador de sistemas aunque también me encanta todo lo relacionado con el mundo web.",
+      "image": "https://media.licdn.com/dms/image/C4E03AQE0bW8Wqed6IA/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=PBg5to2_fxW9dK1g9P4MMf6jxUoFXn0TlE8pbY3IfPk",
+      "cv": "docs/curriculum-es.pdf",
+      "contact": "mailto:alexandermpf77@gmail.com",
+      "basicInfo": {
+        "bornDate": {
+          "title": "Fecha de nacimiento",
+          "content": "1998-11-22"
+        },
+
+        "liveCity": {
+          "title": "Lugar de residencia",
+          "content": "Mataró (Barcelona)"
+        },
+        "languajes": {
+          "title": "Lenguas",
+          "content": ["Castellano", "Catalán", "Inglés"]
+        }
+      }
+    },
+    {
+      "github": {
+        "icon": "fab fa-github",
+        "url": "https://github.com/alexis900",
+        "description": "Visita mis repositorios en GitHub"
+      },
+      "wikipedia": {
+        "icon": "fab fa-wikipedia-w",
+        "url": "https://ca.wikipedia.org/wiki/Usuari:Alexis900",
+        "description": "Visita mi perfil en la Wikipedia"
+      },
+      "linkedin": {
+        "icon": "fab fa-linkedin",
+        "url": "https://www.linkedin.com/in/alejandro-mart%C3%ADn-p%C3%A9rez-709a31157/",
+        "description": ""
+      }
+    },
+    {
+      "asir": {
+        "title": "Administración de Sistemas Informáticos en Red",
+        "type": "CFGS",
+        "school": "IES Thos i Codina",
+        "description": "",
+        "startDate": 2017,
+        "endDate": 2019,
+        "tags": ["Microsoft Windows", "Linux", "Docker", "PHP", "WordPress", "Bases de datos", "Java", "XML", "Hardware", "Redes", "Scripts"]
+      },
+      "smr": {
+        "title": "Sistemas Microinformáticos y Redes",
+        "type": "CFGM",
+        "school": "IES Thos i Codina",
+        "description": "",
+        "startDate": 2015,
+        "endDate": 2017,
+        "tags": ["Microsoft Windows", "Linux", "HTML", "CSS", "WordPress", "Joomla", "Redes", "Hardware"]
+      },
+      "eso": {
+        "title": "Educación Secundaria Obligatoria",
+        "type": "ESO",
+        "school": "INS Laia L'Arquera",
+        "description": "",
+        "startDate": 2010,
+        "endDate": 2014,
+        "tags": []
+      }
+    },
+    {
+      "infostech": {
+        "title": "Info's Tech",
+        "description": "Proyecto para una presentación de bases de datos de ASIR. \n Este proyecto consiste en que son las bases de datos distribuidas y como configurar todo.",
+        "uri": "https://bbddalexyampi.000webhostapp.com/",
+        "tags": ["WordPress", "PHP", "MySQL"],
+        "date": 2019
+      },
+      "wordpress-plugin": {
+        "title": "PlugIn de WordPress",
+        "description": "PlugIn para WordPress que registra todos los inicios de sesión con diferente información, como puede ser la información del navegador web y la IP.",
+        "uri": "https://github.com/alexis900/pluginWordpress",
+        "tags": ["WordPress", "PHP",  "MySQL"],
+        "date": 2019
+      },
+      "scripts-apache": {
+        "title": "Scripts para controlar Apache",
+        "description": "Scripts que permite controlar aspectos básicos del servidor web Apache.",
+        "uri": "https://github.com/alexis900/scriptsApache",
+        "tags": ["Bash"],
+        "date": 2019
+      },
+      "gestor-de-ligas": {
+        "title": "Gestor de Ligas",
+        "description": "Proyecto para poder calcular los puntos totales que se recibirán en una liga para un <a href=\"https://es.wikipedia.org/wiki/Sistema_de_todos_contra_todos\">Sistema de todos contra todos</a>.",
+        "uri": "https://github.com/alexis900/gestor-de-ligas",
+        "tags": ["PHP", "MySQL"],
+        "date": 2019
+      },
+      "battery-viewer": {
+        "title": "BatteryViewer",
+        "description": "Proyecto para poder ver de manera gráfica el nivel de bateria en tu teléfono inteligente Android.",
+        "uri": "https://github.com/alexis900/BatteryViewer",
+        "tags": ["Java", "Android"],
+        "date": 2017
+      },
+      "minecraft-mod":{
+        "title": "Modificación de Minecraft - PeriodicTableMod",
+        "description": "Modificación de Minecraft, para la versión 1.8, con la intención de añadir al juego los elementos de la tabla periodica y diferentes bloques con interfaz gráfica. ",
+        "uri": "https://github.com/alexis900/PeriodicTableMod",
+        "tags": [],
+        "date": 2015
+      },
+      "windows-store-for-windows-desktop": {
+        "title": "Windows Store for Windows Desktop",
+        "description": "Primer proyecto que hice. Es una tienda inspirada en la de Windows 8, pero para la versiónn de escritorio hecha enteramente en Visual Basic.",
+        "uri": "https://github.com/alexis900/Windows-Store-For-Windows-Desktop",
+        "tags": ["Visual Basic"],
+        "date": 2014
+      }
+    },
+    {
+      "websalpunt": {
+        "title": "Boet Contra la Fam",
+        "date": 2014,
+        "job": "Desarrollador web",
+        "description": "2º premio en el desarrollo de una página web en la categoría de ESO en el ámbito de Cataluña.",
+        "image": "img/premio-websalpunt.webp",
+        "uri": "http://boetcontralafam.cat/"
+      }
+    }
+  ],
+
+  "project": [
+    {
+      "version": "0.1.1",
+      "copy": "Alejandro Martín Pérez",
+      "type": "dev",
+      "repo": "https://github.com/alexis900/alexis900.github.io"
+    }
+  ]
+}
