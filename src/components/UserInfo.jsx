@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import Info from '../data/info.json'
 
 export default class UserInfo extends Component {
@@ -21,7 +22,11 @@ export default class UserInfo extends Component {
                 
                 <h1>{Info.name}</h1>
                 <p>Hola buenas, me llamo {Info.name} y tengo {this.getAge(Info.birthdate)} años. Soy administrador de sistemas aunque también me encanta todo lo relacionado con el mundo web.</p>
+                <div>
+                    
+                </div>
             </div>
+
         )
     }
 }

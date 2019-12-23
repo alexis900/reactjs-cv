@@ -1,5 +1,33 @@
 {
     "name": "Alejandro Martín Pérez",
+    "subtitle": "Administrador de sistemas y amante de todo tipo de tecnologias",
     "userimage": "https://media.licdn.com/dms/image/C4E03AQE0bW8Wqed6IA/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=PBg5to2_fxW9dK1g9P4MMf6jxUoFXn0TlE8pbY3IfPk",
-    "birthdate": "1998-11-22"
+    "birthdate": "1998-11-22",
+    "liveCity": {
+        "city": "Mataró",
+        "province": "Barcelona",
+        "country": "España"
+    },
+    "cv": {
+        "es": "docs/curriculum-es.pdf",
+        "cat": "docs/curriculum-ca.pdf"
+    },
+    "languajes": ["Castellano", "Catalán", "Inglés"],
+    "contact": {
+        "linkedin": {
+            "icon": "",
+            "color": "",
+            "linkedin": "https://www.linkedin.com/in/alejandro-mart%C3%ADn-p%C3%A9rez-709a31157/"
+        },
+        "github": {
+            "icon": "",
+            "color": "",
+            "github": "https://github.com/alexis900"
+        },
+        "email": {
+            "icon": "",
+            "color": "",
+            "email": "mailto:alexandermpf77@gmail.com"
+        }
+    }
 }
