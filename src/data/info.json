@@ -13,21 +13,25 @@
         "cat": "docs/curriculum-ca.pdf"
     },
     "languajes": ["Castellano", "Catalán", "Inglés"],
-    "contact": {
-        "linkedin": {
-            "icon": "",
+    "contacts": [
+        {   
+            "id": 1,
+            "name": "linkedin",
+            "icon": "fab fa-linkedin-in",
             "color": "",
-            "linkedin": "https://www.linkedin.com/in/alejandro-mart%C3%ADn-p%C3%A9rez-709a31157/"
-        },
-        "github": {
-            "icon": "",
+            "url": "https://www.linkedin.com/in/alejandro-mart%C3%ADn-p%C3%A9rez-709a31157/"
+        }, {
+            "id": 2,
+            "name": "github",
+            "icon": "fab fa-github",
+            "color": "#000",
+            "url": "https://github.com/alexis900"
+        }, {
+            "id": 3,
+            "name": "email",
+            "icon": "fas fa-mail-bulk",
             "color": "",
-            "github": "https://github.com/alexis900"
-        },
-        "email": {
-            "icon": "",
-            "color": "",
-            "email": "mailto:alexandermpf77@gmail.com"
+            "url": "mailto:alexandermpf77@gmail.com"
         }
-    }
+    ]
 }

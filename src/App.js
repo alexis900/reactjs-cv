@@ -23,7 +23,7 @@ function App() {
       <Navigation/>
       <div className="container p-4">
         <div className="row">
-            <Route path="/" exact component={UserInfo} />
+            <Route exact path="/" component={UserInfo} />
             <Route path="/experience" component={UserExperience} />
             <Route path="/skills" component={UserSkills}/>
             <Route path="/education" component={UserEducation} />

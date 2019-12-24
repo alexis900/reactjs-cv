@@ -1,3 +1,18 @@
-{
-    
-}
+[
+    {
+        "id": 1,
+        "name": "ReactJS CV",
+        "description": "Proyecto para crear un CV en ReactJS.",
+        "repository": "https://github.com/alexis900/reactjs-cv",
+        "img": "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+        "tags": ["ReactJS", "JavaScript"]
+    },
+    {
+        "id": 2,
+        "name": "ChatApp",
+        "description": "Aplicación Android para crear un chat con FireBase",
+        "repository": "https://github.com/alexis900/chatapp",
+        "img": "https://www.doctormetrics.com/wp-content/uploads/2019/07/1335026.png",
+        "tags": ["Android", "Firebase", "Java"]
+    }
+]
