@@ -1,57 +1,54 @@
 a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 header {
-    background: #FF0000;
-    width: 100%;
-    height: 80px;
-    display: inline-flex;
+  background: #ff0000;
+  width: 100%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  .brand {
+    display: flex;
+    align-items: center;
+    height: 100%;
 
-    .brand {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        width: 10%;
-
-        .image {
-            img {
-                width: 100px;
-            }
-        }
-
-        .text {
-            a {
-                font-size: 2em;
-
-                span {
-                    color: #FFFFFF;
-                }
-            }
-        }
+    .image {
+      img {
+        width: 100px;
+        animation: girar infinite 20s linear;
+      }
     }
 
-    nav {
-        height: 100%;
-        ul {
-            height: 100%;
-            display: flex;
-            li {
-                height: 100%;
-                margin: 0 5px;
-                list-style-type: none;
-                a {
-                    text-transform: uppercase;
-                    color: #FFFFFF;
-                    padding: 45px 5px;
-                    
-                    &:hover {
-                        background-color: yellow;
-                        color: #000000;
-                    }
-                }
-            }
+    .brandText {
+      a {
+        font-size: 2em;
+
+        span {
+          color: #ffffff;
         }
+      }
     }
+  }
+
+  nav {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      a {
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          color: #ffffff;
+      }
+  }
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

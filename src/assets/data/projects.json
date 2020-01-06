@@ -10,9 +10,17 @@
     {
         "id": 2,
         "name": "ChatApp",
-        "description": "Aplicación Android para crear un chat con FireBase",
+        "description": "Aplicación Android para crear un chat con FireBase.",
         "repository": "https://github.com/alexis900/chatapp",
         "img": "https://www.doctormetrics.com/wp-content/uploads/2019/07/1335026.png",
         "tags": ["Android", "Firebase", "Java"]
+    },
+    {
+        "id": 3,
+        "name": "",
+        "description": "",
+        "repository": "",
+        "img": "",
+        "tags": []
     }
 ]

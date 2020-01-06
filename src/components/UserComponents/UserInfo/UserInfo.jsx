@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import ContactButton from '../ContactButton'
+import ContactButton from '../../ContactButton'
 
-import Info from '../../data/info.json'
+import Info from './info.json'
 
 export default class UserInfo extends Component {
 
