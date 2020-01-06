@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Package from '../../package.json'
+import Package from '../../../../package.json'
 
 export default class Footer extends Component {
     render() {

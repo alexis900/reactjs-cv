@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-//import Card from './Card'
 
-export default class UserCourses extends Component {
-
+export default class UserSkills extends Component {
     render() {
         return (
             <div>
+                UserSkills
             </div>
         )
     }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Card from './Card'
-import Button from './Button'
+import Card from '../Card'
+import Button from '../Button'
 
-import Projects from '../data/projects.json'
+import Projects from '../../data/projects.json'
 
 export default class UserProjects extends Component {
     render() {
