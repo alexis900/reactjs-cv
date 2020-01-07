@@ -3,6 +3,12 @@ footer {
     background-color: red;
     position: fixed;
     bottom: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+    display: flex;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-around;
+    align-items: center;
+    * {
+        color: white !important;
+    }
 }

@@ -1,10 +1,10 @@
 {
-  "name": "alexis900.github.io",
-  "version": "0.1.1",
+  "name": "reactjs-cv",
+  "version": "0.1.2",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexis900/alexis900.github.io.git"
+    "url": "https://github.com/alexis900/reactjs-cv.git"
   },
   "homepage": ".",
   "dependencies": {
@@ -13,6 +13,7 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "apollo-boost": "^0.4.7",
+    "axios": "^0.19.0",
     "graphql": "^14.5.8",
     "node-sass": "^4.13.0",
     "popper.js": "^1.16.0",

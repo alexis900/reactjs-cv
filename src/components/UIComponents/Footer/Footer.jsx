@@ -6,8 +6,8 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                <p>{Package.version}</p>
-                <a href={Package.repository.url}>GitHub Repository</a>
+                <span id="version">{Package.version}</span>
+                <a id="repository" href={Package.repository.url}>GitHub Repository</a>
             </footer>
         )
     }

@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../../img/logo.svg";
+import Logo from "../../../assets/img/logo.svg";
 import "./style.scss";
 
 export default class Navigation extends Component {
+
+
   render() {
     return (
       <header>
@@ -18,22 +20,22 @@ export default class Navigation extends Component {
           </div>
         </div>
         <nav>
-          <Link className="nav-link" to="skills">
+          <Link to="skills" id="skills">
             habilidades
           </Link>
-          <Link className="nav-link" to="projects">
+          <Link to="projects" id="projects">
             proyectos
           </Link>
-          <Link className="nav-link" to="experience">
+          <Link to="experience" id="experience">
             experiencia
           </Link>
-          <Link className="nav-link" to="education">
+          <Link to="education" id="education">
             formación
           </Link>
-          <Link className="nav-link" to="courses">
+          <Link to="courses" id="courses">
             cursos
           </Link>
-          <Link className="nav-link" to="repository">
+          <Link to="repository" id="repository">
             repositorios
           </Link>
         </nav>

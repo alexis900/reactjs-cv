@@ -18,8 +18,8 @@ export default class UserInfo extends Component {
 
     render() {
         return (
-            <div className="text-center">
-                <img src={Info.userimage} alt="Alejandro Martín Pérez" id="my-photo" className="rounded-circle" />
+            <main>
+                <img src={Info.userimage} alt="Alejandro Martín Pérez" id="my-photo" />
                 
                 <h1>{Info.name}</h1>
                 <p>Hola buenas, me llamo {Info.name} y tengo {this.getAge(Info.birthdate)} años. Soy administrador de sistemas aunque también me encanta todo lo relacionado con el mundo web.</p>
@@ -31,7 +31,7 @@ export default class UserInfo extends Component {
                         )
                     }
                 </div>
-            </div>
+            </main>
 
         )
     }
