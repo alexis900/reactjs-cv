@@ -5,12 +5,12 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import Navigation from './components/UIComponents/Navigation/Navigation'
 import UserInfo from './components/UserComponents/UserInfo/UserInfo'
-import UserExperience from './components/UserComponents/UserExperience'
-import UserSkills from './components/UserComponents/UserSkills'
-import UserEducation from './components/UserComponents/UserEducation'
-import UserCourses from './components/UserComponents/UserCourses'
-import UserProjects from './components/UserComponents/UserProjects'
-import UserRepository from './components/UserComponents/UserRepository'
+import UserExperience from './components/UserComponents/UserExperience/UserExperience'
+import UserSkills from './components/UserComponents/UserSkills/UserSkills'
+import UserEducation from './components/UserComponents/UserEducation/UserEducation'
+import UserCourses from './components/UserComponents/UserCourses/UserCourses'
+import UserProjects from './components/UserComponents/UserProjects/UserProjects'
+import UserRepository from './components/UserComponents/UserRepository/UserRepository'
 import Footer from './components/UIComponents/Footer/Footer';
 
 
