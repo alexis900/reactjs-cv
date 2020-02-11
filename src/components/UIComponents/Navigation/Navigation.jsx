@@ -35,9 +35,6 @@ export default class Navigation extends Component {
           <Link to="courses" id="courses">
             cursos
           </Link>
-          <Link to="repository" id="repository">
-            repositorios
-          </Link>
         </nav>
       </header>
     );

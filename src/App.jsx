@@ -10,7 +10,6 @@ import UserSkills from './components/UserComponents/UserSkills/UserSkills'
 import UserEducation from './components/UserComponents/UserEducation/UserEducation'
 import UserCourses from './components/UserComponents/UserCourses/UserCourses'
 import UserProjects from './components/UserComponents/UserProjects/UserProjects'
-import UserRepository from './components/UserComponents/UserRepository/UserRepository'
 import Footer from './components/UIComponents/Footer/Footer';
 
 
@@ -26,7 +25,6 @@ function App() {
             <Route path="/education" component={UserEducation} />
             <Route path="/projects" component={UserProjects} />
             <Route path="/courses" component={UserCourses} />
-            <Route path="/repository" component={UserRepository} />
         </div>
       </div>
       <Footer />
