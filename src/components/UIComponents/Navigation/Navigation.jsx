@@ -1,41 +1,27 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import Logo from "../../../assets/img/logo.svg";
 import "./style.scss";
+import { Navbar, Image, Nav } from "react-bootstrap";
 
 export default class Navigation extends Component {
-
-
   render() {
     return (
       <header>
-        <div className="brand">
-          <div className="image">
-            <img src={Logo} alt="" />
-          </div>
-          <div className="brandText">
-            <Link to="/">
+        <Navbar bg="primary" variant="light" expand="sm">
+          <Navbar.Brand href="#/">
+            <Image src={Logo} width="85" height="85" />
+            <Navbar.Text>
               My<span>CV</span>
-            </Link>
-          </div>
-        </div>
-        <nav>
-          <Link to="skills" id="skills">
-            habilidades
-          </Link>
-          <Link to="projects" id="projects">
-            proyectos
-          </Link>
-          <Link to="experience" id="experience">
-            experiencia
-          </Link>
-          <Link to="education" id="education">
-            formación
-          </Link>
-          <Link to="courses" id="courses">
-            cursos
-          </Link>
-        </nav>
+            </Navbar.Text>
+          </Navbar.Brand>
+          <Nav className="mr-auto text-uppercase text-light">
+            <Nav.Link href="#/skills">habilidades</Nav.Link>
+            <Nav.Link href="#/projects">proyectos</Nav.Link>
+            <Nav.Link href="#/experience">experiencia</Nav.Link>
+            <Nav.Link href="#/education">formación</Nav.Link>
+            <Nav.Link href="#/courses">cursos</Nav.Link>
+          </Nav>
+        </Navbar>
       </header>
     );
   }
